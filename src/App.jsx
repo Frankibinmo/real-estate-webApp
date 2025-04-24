@@ -15,9 +15,9 @@ const App = () => {
         <Header />
         <Hero />
       </div>
-      <Companies/>
+      {/* <Companies/>
       <Residencies/>
-      <Value/>
+      <Value/> */}
     </div>
   );
 }
