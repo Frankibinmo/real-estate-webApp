@@ -1,0 +1,82 @@
+ .r-container{
+    overflow: hidden;
+ }
+.r-head {
+  margin-top: 2rem;
+}
+
+.hope {
+  display: flex;
+}
+.choiceDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.custom-prev,
+.custom-next {
+  background-color: #fafafa;
+  color: black;
+  border: none;
+  height: 25px;
+  padding: 8px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background-color: black;
+  color: white;
+}
+
+.dolls-sign{
+    font-size: 15px;
+}
+
+.r-card title{
+    font-size: medium;
+}
+
+.text-name{
+ font-size: larger;
+}
+
+.text-details{
+   font-size: small;
+}
+
+.r-card:hover{
+ scale: 1.025;
+ cursor: pointer;
+ background: linear-gradient(180 deg,
+ rgba(255,255,255, 0) 0%
+ rgba(136, 160, 255, 0.45) 217
+ );
+ box-shadow: 0px 79px 49px -51px;
+}
