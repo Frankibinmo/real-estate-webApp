@@ -7,7 +7,6 @@ import "./Residencies.css";
 import Data from "../../utils/slider.json";
 import { SliderSettings } from "../SliderSettings";
 
-
 const Residencies = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
@@ -18,7 +17,7 @@ const Residencies = () => {
         <div className="choiceDiv">
           {" "}
           <div className="r-head flexColStart">
-            <span className="orangeText">Best Choices</span>
+            <span className="orangeText">Best</span>
             <span className="primaryText">Popular Residencies</span>
           </div>
           <div className="nav-buttons">
@@ -34,7 +33,7 @@ const Residencies = () => {
         <Swiper
           modules={[Navigation]}
           spaceBetween={20}
-          slidesPerView={5}
+          slidesPerView={1}
           grabCursor={true}
           navigation={{
             prevEl: prevRef.current,
