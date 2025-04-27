@@ -34,7 +34,7 @@ const Residencies = () => {
         <Swiper
           modules={[Navigation]}
           spaceBetween={20}
-          slidesPerView={5}
+          slidesPerView={1}
           grabCursor={true}
           navigation={{
             prevEl: prevRef.current,
