@@ -52,8 +52,6 @@ const Contact = () => {
             {/* second row */}
           </div>
 
-          {/* second row */}
-
           <div className="flexColStart contactMode">
             {/* first row */}
             <div className="flexStart row">

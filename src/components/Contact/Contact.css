@@ -74,3 +74,23 @@
   justify-content: space-between;
   gap: 0.8rem;
 }
+
+@media (max-width: 1024px) {
+  .c-container{
+    flex-direction: column;
+  }
+  .c-right{
+    justify-content: center;
+  }
+  .contactMode{
+    width: 100%;
+  }
+  .row{
+    flex-direction: column;
+    width: 100%;
+  }
+  .mode{
+    width: 100%;
+  }
+
+}

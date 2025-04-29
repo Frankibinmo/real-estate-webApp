@@ -16,7 +16,7 @@ const Residencies = () => {
       <div className="paddings innerwidth r-container">
         <div className="choiceDiv">
           {" "}
-          <div className="r-head flexColStart">
+          <div className="flexColStart r-head">
             <span className="orangeText">Best</span>
             <span className="primaryText">Popular Residencies</span>
           </div>
@@ -33,7 +33,7 @@ const Residencies = () => {
         <Swiper
           modules={[Navigation]}
           spaceBetween={20}
-          slidesPerView={1}
+          slidesPerView={2}
           grabCursor={true}
           navigation={{
             prevEl: prevRef.current,

@@ -48,3 +48,12 @@ v-right{
     font-size: 1.5rem;
 }
 
+@media( max-width:1024px) {
+    .v-container{
+        flex-direction: column;
+
+    }
+    .main-item .primaryText{
+        font-size: large;
+    }
+}
